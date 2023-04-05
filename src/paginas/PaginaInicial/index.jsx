@@ -1,4 +1,5 @@
 import Cabecalho from "../../componentes/Cabecalho";
+import Galeria from "../../componentes/Galeria";
 import Menu from "../../componentes/Menu";
 import Rodape from "../../componentes/Rodape";
 import banner from './banner.png'
@@ -17,6 +18,9 @@ export default function PaginaInicial() {
 				</div>
 			</section>
 		</main>
+		<div>
+			<Galeria />
+		</div>
 		<Rodape />
 	</>
 	)
